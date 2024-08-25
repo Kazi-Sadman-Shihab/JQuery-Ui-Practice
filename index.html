@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JQuery UI</title>
+    <!-- font links -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <!-- css links -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    
+  </head>
+  <body>
+    <div class="container my-3">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- exp1 -->
+      <div id="draggable" class="ui-widget-content">
+        <p>Drag me around</p>
+      </div>
+      <!-- exp2 -->
+      <div id="droppable" class="ui-widget-header">
+        <p>Drop here</p>
+      </div>
+      <!-- exp3 -->
+      <div id="resizable" class="ui-widget-content">
+        <h3 class="ui-widget-header">Resizable</h3>
+      </div>
+        </div>
+      </div>
+      
+    </div>
+    <!-- exp4 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Selectable</h3>
+          <p>Use the mouse to select elements, individually or in a group.</p>
+          <ol id="selectable">
+            <li class="ui-widget-content">Item 1</li>
+            <li class="ui-widget-content">Item 2</li>
+            <li class="ui-widget-content">Item 3</li>
+            <li class="ui-widget-content">Item 4</li>
+            <li class="ui-widget-content">Item 5</li>
+            <li class="ui-widget-content">Item 6</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <!-- exp5 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Sortable</h3>
+          <p>Reorder elements in a list or grid using the mouse.</p>
+          <ul id="sortable">
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- exp6 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Sortable (Connected List)</h3>
+          <p>Reorder elements in a list or grid using the mouse.</p>
+          <ul id="sortable1" class="connectedSortable">
+            <li class="ui-state-default">Item 1</li>
+            <li class="ui-state-default">Item 2</li>
+            <li class="ui-state-default">Item 3</li>
+            <li class="ui-state-default">Item 4</li>
+            <li class="ui-state-default">Item 5</li>
+          </ul>
+          <ul id="sortable2" class="connectedSortable">
+            <li class="ui-state-highlight">Item 1</li>
+            <li class="ui-state-highlight">Item 2</li>
+            <li class="ui-state-highlight">Item 3</li>
+            <li class="ui-state-highlight">Item 4</li>
+            <li class="ui-state-highlight">Item 5</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- exp7 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Sortable (Drop Placeholder)</h3>
+          <p>Reorder elements in a list or grid using the mouse.</p>
+          <ul id="sortable3">
+            <li class="ui-state-default">Item 1</li>
+            <li class="ui-state-default">Item 2</li>
+            <li class="ui-state-default">Item 3</li>
+            <li class="ui-state-default">Item 4</li>
+            <li class="ui-state-default">Item 5</li>
+            <li class="ui-state-default">Item 6</li>
+            <li class="ui-state-default">Item 7</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- exp8 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Accordion</h3>
+          <p>Displays collapsible content panels for presenting information in a limited amount of space.</p>
+          <div id="accordion">
+            <h3>Section 1</h3>
+            <div>
+              <p>
+              Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+              ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+              amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+              odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+              </p>
+            </div>
+            <h3>Section 2</h3>
+            <div>
+              <p>
+              Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+              purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+              velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+              suscipit faucibus urna.
+              </p>
+            </div>
+            <h3>Section 3</h3>
+            <div>
+              <p>
+              Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+              Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+              ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+              lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+              </p>
+              <ul>
+                <li>List item one</li>
+                <li>List item two</li>
+                <li>List item three</li>
+              </ul>
+            </div>
+            <h3>Section 4</h3>
+            <div>
+              <p>
+              Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+              et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+              faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+              mauris vel est.
+              </p>
+              <p>
+              Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+              inceptos himenaeos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- exp9 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Accordion (Collapse Content)</h3>
+          <p>Displays collapsible content panels for presenting information in a limited amount of space.</p>
+          <div id="accordion2">
+            <h3>Section 1</h3>
+            <div>
+              <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+            </div>
+            <h3>Section 2</h3>
+            <div>
+              <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+            </div>
+            <h3>Section 3</h3>
+            <div>
+              <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+              <ul>
+                <li>List item one</li>
+                <li>List item two</li>
+                <li>List item three</li>
+              </ul>
+            </div>
+            <h3>Section 4</h3>
+            <div>
+              <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- exp10 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Accordion (Fill Space)</h3>
+          <h3 class="docs">Resize the outer container:</h3>
+          <div id="accordion-resizer" class="ui-widget-content">
+            <div id="accordion3">
+              <h3>Section 1</h3>
+              <div>
+                <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+              </div>
+              <h3>Section 2</h3>
+              <div>
+                <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+              </div>
+              <h3>Section 3</h3>
+              <div>
+                <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+                <ul>
+                  <li>List item one</li>
+                  <li>List item two</li>
+                  <li>List item three</li>
+                </ul>
+              </div>
+              <h3>Section 4</h3>
+              <div>
+                <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- exp11 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Accordion (No Auto Height)</h3>
+          <p>Displays collapsible content panels for presenting information in a limited amount of space.</p>
+          <div id="accordion4">
+            <h3>Section 1</h3>
+            <div>
+              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odit hic, dolor suscipit assumenda labore veniam sapiente tempore non in sed harum enim quis et vitae iure aut eos voluptatem eius recusandae deserunt repellendus aperiam. Quasi ullam enim molestias omnis hic quod nulla, doloribus culpa, aliquam optio eius atque nobis.</P>
+            </div>
+            <h3>Section 2</h3>
+            <div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab pariatur qui fugit necessitatibus, minus consectetur aliquam esse, totam odio vitae libero maiores in! Quam sunt ut at deleniti, cupiditate voluptas eum. Officia at voluptate excepturi eos expedita quas hic assumenda sit nesciunt repellendus temporibus, magnam culpa nam et? Cumque corporis minus praesentium porro, dolor hic, consequuntur vitae at ullam, excepturi atque. Laborum optio voluptates consectetur animi culpa. Exercitationem fuga nam officia eos labore sapiente hic laudantium fugit provident amet minus sed, pariatur, alias ex quod beatae maxime error esse corporis autem! Quibusdam voluptatibus rem adipisci saepe nulla doloremque, unde ipsum.</p>
+            </div>
+            <h3>Section 3</h3>
+            <div>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum ullam obcaecati ipsam iure nobis magnam esse, excepturi officia doloribus, blanditiis exercitationem omnis, eos error aspernatur consequatur! Molestiae, perferendis tempora? Repellendus dolores officia voluptatem eius odio ab aut consequatur ad molestias, recusandae aliquam minima atque nostrum eveniet deleniti vitae fugit quis animi rem? Sequi unde iste ipsam et a repellat, voluptatem quis perferendis voluptas, excepturi recusandae quibusdam! Quae minima non doloribus fuga temporibus nisi neque nemo deleniti quasi qui laborum illo assumenda eveniet dolor possimus ipsam voluptas ex iste, quia accusamus et laboriosam! Libero saepe officia dicta eos voluptas aliquid sit, adipisci, exercitationem, praesentium sunt nostrum. Laboriosam fugit corporis mollitia iusto blanditiis quos ipsa ea aspernatur? Eligendi repellat consequatur facilis doloremque.</p>
+              <ul>
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+                <li>List item 4</li>
+                <li>List item 5</li>
+                <li>List item 6</li>
+                <li>List item 7</li>
+                <li>List item 8</li>
+                <li>List item 9</li>
+                <li>List item 10</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- exp12 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Autocomplete</h3>
+          <p>Enables users to quickly find and select from a pre-populated list of values as they type, leveraging searching and filtering.</p>
+          <div class="ui-widget">
+            <label for="tags">Tags: </label>
+            <input id="tags">
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- exp13 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Datepicker</h3>
+          <p>Date: <input type="text" id="datepicker"></p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- exp14 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Datepicker (Animations)</h3>
+          <p>Date: <input type="text" id="datepicker2" size="30"></p>
+          
+          <p>Animations:<br>
+            <select id="anim">
+              <option value="show">Show (default)</option>
+              <option value="slideDown">Slide down</option>
+              <option value="fadeIn">Fade in</option>
+              <option value="blind">Blind (UI Effect)</option>
+              <option value="bounce">Bounce (UI Effect)</option>
+              <option value="clip">Clip (UI Effect)</option>
+              <option value="drop">Drop (UI Effect)</option>
+              <option value="fold">Fold (UI Effect)</option>
+              <option value="slide">Slide (UI Effect)</option>
+              <option value="">None</option>
+            </select>
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- exp15 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Datepicker (Icon Trigger)</h3>
+          <p>Date: <input type="text" id="datepicker3"></p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- exp16 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Menu</h3>
+          <p>Themeable menu with mouse and keyboard interactions for navigation.</p>
+          <ul id="menu">
+            <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+            <li><div>Books</div></li>
+            <li><div>Clothing</div></li>
+            <li><div>Electronics</div>
+              <ul>
+                <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+                <li><div>Car Hifi</div></li>
+                <li><div>Utilities</div></li>
+              </ul>
+            </li>
+            <li><div>Movies</div></li>
+            <li><div>Music</div>
+              <ul>
+                <li><div>Rock</div>
+                  <ul>
+                    <li><div>Alternative</div></li>
+                    <li><div>Classic</div></li>
+                  </ul>
+                </li>
+                <li><div>Jazz</div>
+                  <ul>
+                    <li><div>Freejazz</div></li>
+                    <li><div>Big Band</div></li>
+                    <li><div>Modern</div></li>
+                  </ul>
+                </li>
+                <li><div>Pop</div></li>
+              </ul>
+            </li>
+            <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- exp17 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Menu (Categories)</h3>
+          <p>Themeable menu with mouse and keyboard interactions for navigation.</p>
+          <ul id="menu2">
+            <li class="ui-widget-header"><div>Category 1</div></li>
+            <li><div>Option 1</div></li>
+            <li><div>Option 2</div></li>
+            <li><div>Option 3</div></li>
+            <li class="ui-widget-header"><div>Category 2</div></li>
+            <li><div>Option 4</div></li>
+            <li><div>Option 5</div></li>
+            <li><div>Option 6</div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- exp18 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Menu (Icons)</h3>
+          <p>Themeable menu with mouse and keyboard interactions for navigation.</p>
+          <ul id="menu3">
+            <li>
+              <div><span class="ui-icon ui-icon-disk"></span>Save</div>
+            </li>
+            <li>
+              <div><span class="ui-icon ui-icon-zoomin"></span>Zoom In</div>
+            </li>
+            <li>
+              <div><span class="ui-icon ui-icon-zoomout"></span>Zoom Out</div>
+            </li>
+            <li class="ui-state-disabled">
+              <div><span class="ui-icon ui-icon-print"></span>Print...</div>
+            </li>
+            <li>
+              <div>Playback</div>
+              <ul>
+                <li>
+                  <div><span class="ui-icon ui-icon-seek-start"></span>Prev</div>
+                </li>
+                <li>
+                  <div><span class="ui-icon ui-icon-stop"></span>Stop</div>
+                </li>
+                <li>
+                  <div><span class="ui-icon ui-icon-play"></span>Play</div>
+                </li>
+                <li>
+                  <div><span class="ui-icon ui-icon-seek-end"></span>Next</div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <div>Learn more about this menu</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- exp19 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Progressbar</h3>
+          <p>Display status of a determinate or indeterminate process.</p>
+          <div id="progressbar"></div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- exp20 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Progressbar (Download Dialog)</h3>
+          <p>Display status of a determinate or indeterminate process.</p>
+          <div id="dialog" title="File Download">
+            <div class="progress-label">Starting download...</div>
+            <div id="progressbar2"></div>
+          </div>
+          <button id="downloadButton" class="btn btn-dark">Start Download</button>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- exp21 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Selectmenu</h3>
+          <p>Duplicates and extends the functionality of a native HTML select element to overcome the limitations of the native control.s</p>
+          <div class="demo">
+            <form action="#">
+              <fieldset>
+                <label class="c_label" for="speed">Select a speed</label>
+                <select name="speed" id="speed">
+                  <option>Slower</option>
+                  <option>Slow</option>
+                  <option selected="selected">Medium</option>
+                  <option>Fast</option>
+                  <option>Faster</option>
+                </select>
+                <label class="c_label" for="files">Select a file</label>
+                <select name="files" id="files">
+                  <optgroup label="Scripts">
+                    <option value="jquery">jQuery.js</option>
+                    <option value="jqueryui">ui.jQuery.js</option>
+                  </optgroup>
+                  <optgroup label="Other files">
+                    <option value="somefile">Some unknown file</option>
+                    <option value="someotherfile">Some other file with a very long option text</option>
+                  </optgroup>
+                </select>
+                <label class="c_label" for="number">Select a number</label>
+                <select name="number" id="number">
+                  <option>1</option>
+                  <option selected="selected">2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                  <option>13</option>
+                  <option>14</option>
+                  <option>15</option>
+                  <option>16</option>
+                  <option>17</option>
+                  <option>18</option>
+                  <option>19</option>
+                </select>
+                <label class="c_label" for="salutation">Select a title</label>
+                <select name="salutation" id="salutation">
+                  <option disabled="" selected="">Please pick one</option>
+                  <option>Mr.</option>
+                  <option>Mrs.</option>
+                  <option>Dr.</option>
+                  <option>Prof.</option>
+                  <option>Other</option>
+                </select>
+              </fieldset>
+            </form>
+            </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- exp22 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Slider (Range Slider)</h3>
+          <p>Drag a handle to select a numeric value.</p>
+          <p>
+            <label for="amount">Price range:</label>
+            <input type="text" id="amount" readonly="" style="border:0; color:#f6931f; font-weight:bold;">
+          </p>
+          <div id="slider-range"></div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- exp23 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Tabs</h3>
+          <p>A single content area with multiple panels, each associated with a header in a list.</p>
+          <div id="tabs">
+            <ul>
+              <li><a href="#tabs-1">Nunc tincidunt</a></li>
+              <li><a href="#tabs-2">Proin dolor</a></li>
+              <li><a href="#tabs-3">Aenean lacinia</a></li>
+            </ul>
+            <div id="tabs-1">
+              <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+            </div>
+            <div id="tabs-2">
+              <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+            </div>
+            <div id="tabs-3">
+              <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+              <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- exp24 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Tabs (Collapse Content)</h3>
+          <p>A single content area with multiple panels, each associated with a header in a list.</p>
+          <div id="tabs2">
+            <ul>
+              <li><a href="#tabs2-1">Nunc tincidunt</a></li>
+              <li><a href="#tabs2-2">Proin dolor</a></li>
+              <li><a href="#tabs2-3">Aenean lacinia</a></li>
+            </ul>
+            <div id="tabs2-1">
+              <p><strong>Click this tab again to close the content pane.</strong></p>
+              <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+            </div>
+            <div id="tabs2-2">
+              <p><strong>Click this tab again to close the content pane.</strong></p>
+              <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+            </div>
+            <div id="tabs2-3">
+              <p><strong>Click this tab again to close the content pane.</strong></p>
+              <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- exp25 -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Tabs (Sortable)</h3>
+          <p>A single content area with multiple panels, each associated with a header in a list.</p>
+          <div id="tabs3">
+            <ul>
+              <li><a href="#tabs3-1">Nunc tincidunt</a></li>
+              <li><a href="#tabs3-2">Proin dolor</a></li>
+              <li><a href="#tabs3-3">Aenean lacinia</a></li>
+            </ul>
+            <div id="tabs3-1">
+              <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+            </div>
+            <div id="tabs3-2">
+              <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+            </div>
+            <div id="tabs3-3">
+              <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+              <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    
+    
+    
+
+
+    <!-- script links -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+

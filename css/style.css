@@ -1,0 +1,165 @@
+/* Draggable */
+#draggable {
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px 10px 0;
+    padding: .5em;
+    float: left;
+    color: white;
+    background-color: darkslategray;
+}
+
+/* Droppable */
+#droppable{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: .5em;
+    float: left;
+}
+
+/* Resizable */
+#resizable{
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+    float: left;
+}
+#resizable h3{
+    text-align: center;
+    margin: 0;
+}
+
+/* Selectable */
+#feedback {
+    font-size: 1.4em; 
+}
+#selectable .ui-selecting {
+    background: #FECA40; 
+}
+#selectable .ui-selected {
+    background: #F39814;
+    color: white;
+}
+#selectable{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    /* float: left; */
+}
+#selectable li{
+    margin: 3px;
+    padding: 0.4em;
+    font-size: 1.4em;
+    height: 50px;
+}
+
+/* sortable */
+#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60%; 
+}
+#sortable li {
+    margin: 0 3px 3px 3px;
+    padding: 0.4em;
+    padding-left: 1.5em;
+    font-size: 1.4em;
+    height: 55px; 
+}
+#sortable li span {
+    position: absolute;
+    margin-left: -1.3em;
+    margin-top: .35em;
+}
+
+/* sortable connected list */
+#sortable1, #sortable2{
+    border: 1px solid #eee;
+    width: 30%;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+}
+#sortable1 li, #sortable2 li{
+    margin: 0 5px 5px 5px;
+    padding: 10px;
+    font-size: 1.4em;
+    width: 96%;
+}
+
+/* sortable drop placeholder */
+#sortable3{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+#sortable3 li{
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.4em;
+    height: 1.5em;
+}
+html>body #sortable3 li{
+    height: 2.5em;
+    line-height: 1.8em;
+}
+
+/* accordion fill space */
+#accordion-resizer{
+    padding: 10px;
+    width: 350px;
+    height: 220px;
+}
+
+/* menu */
+.ui-menu{
+    width: 200px;
+}
+
+/* menu categories */
+.ui-widget-header{
+    padding: 0.2em;
+}
+
+/* progressbar download dialog */
+#progressbar2 {
+    margin-top: 20px;
+}
+
+.progress-label {
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+.ui-dialog-titlebar-close {
+    display: none;
+}
+
+/* selectmenu */
+fieldset{
+    border: 0;
+}
+.c_label{
+    display: block;
+    margin: 30px 0 0 0;
+}
+.overflow{
+    height: 200px;
+}
+
+/* tooltip */
+#c_labe2{
+    display: inline-block;
+    width: 5em;
+}
+
+
+
+
